@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    border-top: 2px solid #E03F3F;
+}
+
+.navbar-brand {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    line-height: 2.4;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin-left: 15em;
+    color: black;
+    font-size: 0.95rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #E03F3F;
+}
+
+.navbar-light .navbar-nav .nav-item a:hover {
+   color: #E03F3F;
+   transition: 0.3s;
+}
+
+.navbar-light .navbar-nav .dropdown-menu {
+    font-size: 0.92rem;
+    background-color: #ebebebb3;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .dropdown-menu a:hover {
+    background-color: #E03F3F;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar-nav .dropdown-item {
+    padding: 0.5rem 1rem;
+}
+.navbar-nav .dropdown-divider {
+    margin: 0;
+}
+
+#hero {
+    background: url(/img/banner-bg.jpg);
+    background-size: cover;
+    min-height: 90vh;
+}
+
+#hero .container {
+    padding: 8em 5em 0 35em; 
+}
+
+#hero h4 {
+    font-size: 1.6rem;
+    letter-spacing: 0.8px;
+    margin-bottom: 1.2rem;
+}
+
+#hero h1 {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.2;
+}
+
+#hero .btn {
+    font-size: 0.9rem;
+    background-color: #E03F3F;
+    border: 1px solid #E03F3F;
+    border-radius: 0;
+    letter-spacing: 1px;
+    float: right;
+}
+
+#hero .btn:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+#portfolio {
+    background-color: #F5F5F5;
+    margin-top: -20px;
+}
+
+#portfolio .container {
+    padding: 4em 5em;
+}
+
+#portfolio h5 {
+    font-family: 'Noto Serif SC', serif;
+}
+
+#portfolio p {
+    font-size: 0.95rem;
+}
+
+#portfolio .card {
+    border: 0;
+    border-radius: 0;
+    margin: 1rem 0;
+}
+
+#portfolio .card:hover {
+    background-color: #E03F3F;
+    color: white;
+    transition: 0.5s;
+}
+
+#portfolio .card:hover h5 {
+    color: inherit;
+    transition: 0.3s;
+}
+
+#portfolio .card:hover i {
+    color: inherit;
+    transition: 0.3s;
+}
+
+#portfolio .card-body {
+    padding: 2rem 2.4rem;
+}
+
+#portfolio .card h5 {
+    color: #E03F3F;
+}
+
+#portfolio i {
+    color: #484848c9;
+    font-size: 28px;
+}
+
+#testimonials .carousel-caption img {
+    border-radius: 50%;
+    width: 15%;
+}
+
+#testimonials .carousel-caption .fas {
+    color: #D4AF37;
+    font-size: 0.8rem;
+}
+
+#testimonials .carousel-caption .far {
+    color: #bebebec9;
+    font-size: 0.8rem;
+}
+
+#testimonials .carousel-caption h5 {
+    font-family: 'Noto Serif SC', serif;
+    letter-spacing: 2px;
+}
+
+#information .container {
+    padding: 4em 5em;
+}
+
+#information h5 {
+    font-family: 'Noto Serif SC', serif;
+}
+
+#information p {
+    font-size: 0.95rem;
+}
+
+#information .card {
+    border: 0;
+}
+
+#information .card-body {
+    padding: 0;
+}
+
+#information .card .card-title {
+    font-size: 1.05rem;
+    margin-left: 4.8rem;
+}
+
+#information .card i {
+    position: absolute;
+    border: 1px solid #bebebec9;
+    padding: 0.4em 0.5em;
+    font-size: 1.4rem;
+    color: #E03F3F;
+}
+
+#information .card:hover i {
+    background-color: #E03F3F;
+    border: 1px solid #E03F3F;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+#information .card p {
+    margin-left: 5em;
+    color: #383838;
+}
+
+#information .card p a {
+    color: #E03F3F;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: #222222;
+}
+
+#footer .container {
+    padding: 5em 5em 3em 5em;
+}
+
+#footer .content h5 {
+    font-family: 'Noto Serif SC', serif;
+    letter-spacing: 1px;
+}
+
+#footer .content p {
+    font-size: 0.86em;
+    letter-spacing: 0.8px;
+}
+
+#footer .content li {
+    display: inline;
+    margin: 0 0.2em;
+}
+
+#footer .content li a {
+    background-color: #E03F3F;
+    padding: 0.6em 1em;
+}
+
+#footer .content li a:hover {
+    background: transparent;
+    transition: 0.5s;
+}
+
+#footer .content li i {
+    color: white;
+    font-size: 1em;
+}
+
+#footer .footer-text {
+    background-color: #E03F3F;
+}
+
+#footer .footer-text .container {
+    padding: 0.9em  5em;
+}
+
+
+@media (max-width: 1199.98px) {
+
+    #hero .container {
+        padding: 8em 5em 0 20em; 
+    }
+
+    #portfolio .container {
+        padding: 4em 1.2em;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+
+    #hero .container {
+        padding: 6em 3em 0 4em; 
+    }
+
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    #hero .btn {
+        margin: 2rem 0;
+    }
+
+    
+}
+
+@media (max-width: 767.98px) {
+
+    #hero h1 {
+        font-size: 2.2rem;
+    }
+
+    #information .container {
+        padding: 4em 1em;
+    }
+
+    #information .card {
+        margin-bottom: 2em;
+    }
+
+    #footer .container {
+        padding: 5em 1em 3em 1em;
+    }
+
+    #footer .content li {
+        margin: 0 0.2 0 0;  
+    }
+
+    #footer .content li a {
+        background-color: #E03F3F;
+        padding: 0.3em 0.8em;
+    }
+
+    #footer .footer-text .container {
+        padding: 0.9em 1em;
+    }
+
+    #footer .footer-text p {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    #hero .container {
+        padding: 6em 2em 0 2em; 
+    }
+
+    #hero h1 {
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
+
+    #footer .content li {
+        margin: 0 0.1;  
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
